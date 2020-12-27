@@ -43,6 +43,12 @@ public class MainMenuUI : MonoBehaviour {
     }
 
     public void StartGame() {
+        PrintMenuOptionsToConsole();
+        GameManager.instance.SetupGame(int.Parse(boardWidth), int.Parse(boardHeight), playerOneName, playerTwoName);
+        holder.SetActive(false);
+    }
+
+    private void PrintMenuOptionsToConsole() {
         Debug.Log("====================================================");
         Debug.Log("Starting new game with the following parameters");
         Debug.Log("Width: " + boardWidth);
@@ -50,7 +56,5 @@ public class MainMenuUI : MonoBehaviour {
         Debug.Log("Player One Name: " + playerOneName);
         Debug.Log("Player Two Name: " + playerTwoName);
         Debug.Log("====================================================");
-        GameManager.instance.SetupGame(int.Parse(boardWidth), int.Parse(boardHeight), playerOneName, playerTwoName);
-        holder.SetActive(false);
     }
 }
