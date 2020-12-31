@@ -1,4 +1,4 @@
-# Dots
+# Dots Structure
 
 ## Project Setup
 
@@ -82,15 +82,15 @@ And it also contains the two cells that are attached to the edge.
 
 <u>Example Board Array:</u>
 ```
-\* --- \* --- \* --- \*
+* --- * --- * --- *
 
-| cCc  | cCc | cCc |
+|  C  |  C  |  C  |
 
-\* --- \* --- \* --- \*
+* --- * --- * --- *
 
-| cCc  | cCc | cCc |
+|  C  |  C  |  C  |
 
-\* --- \* --- \* --- \*
+* --- * --- * --- *
 ```
 
 <u>Board Creation:</u>
@@ -119,6 +119,8 @@ Stores all logic including game setup, next turn, scoring, game over, and restar
 Unity Version: 2019.4.9f1
 
 Editor: VsCode ([Configure with Unity Guide](https://code.visualstudio.com/docs/other/unity))
+
+Note: VsCode Editor is no longer supported by Unity 2019.2 so I do not suggest using anything other than the pre installed Visual Studio editor.
 
 Version Controll: [GitHub/nbathras/dots](https://github.com/nbathras/Dots) (used through the vscode Source Control application and GitBash Windows Application)
 
