@@ -6,6 +6,8 @@ The game start with a variable size grid of of dots.  Each player take turns con
 
 Dots the computer game can support two players with variable player names as well as a variable size rectanglular grid that can scale well up to 30 x 30.
 
+[[https://github.com/nbathras/Dots/blob/main/Assets/README.md|Dots Technical Breakdown]]
+
 ## Demo Images:
 
 **Main Menu:**

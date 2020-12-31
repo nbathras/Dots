@@ -1,4 +1,4 @@
-# Dots Structure
+# Dots Technical Breakdown
 
 ## Project Setup
 
